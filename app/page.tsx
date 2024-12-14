@@ -10,7 +10,7 @@ export default function Home() {
         Documents Car Mart
       </h1>
       <p className="max-w-[600px] text-foreground mb-8 sm:text-base">
-        A simple open-source product documentation platform. That&apos;s simple to use and easy to customize.
+      CarMart adalah aplikasi penyewaan mobil yang dirancang untuk memberikan kemudahan dan kenyamanan bagi pengguna dalam mencari dan menyewa kendaraan.
       </p>
       <div className="flex items-center gap-5">
         <Link
