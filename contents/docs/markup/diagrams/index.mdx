@@ -8,36 +8,3 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum te
 ## Flowchart
 
 ![Banner](/images/flowchart.png)
-
-##  Decision Tree
-
-<Mermaid chart={`graph TD;
-    A[Start] --> B{Is it raining?};
-    B -->|Yes| C[Take an umbrella];
-    B -->|No| D[Enjoy the weather];
-    C --> E[Go outside];
-    D --> E;`} />
-
-## Entity-Relationship Diagram
-
-<Mermaid chart={`erDiagram
-    CUSTOMER ||--o{ ORDER : places
-    ORDER ||--|{ LINE-ITEM : contains
-    PRODUCT ||--o{ LINE-ITEM : "included in"
-    CUSTOMER {
-        string name
-        string email
-    }
-    ORDER {
-        int orderNumber
-        date orderDate
-    }
-    LINE-ITEM {
-        int quantity
-        float price
-    }
-    PRODUCT {
-        int productId
-        string name
-        float price
-    }`} />
