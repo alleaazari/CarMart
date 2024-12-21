@@ -29,8 +29,8 @@ export const Documents: Paths[] = [
     heading: "Documents",
   },
   {
-    title: "Analisis dan Desain Perangkat Lunak",
-    href: "/Analisis dan Desain Perangkat Lunak",
+    title: "Structure",
+    href: "/structure",
     items: [
       {
         title: "Deeper",
