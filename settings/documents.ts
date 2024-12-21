@@ -26,7 +26,7 @@ export const Documents: Paths[] = [
   {
     title: "Navigation",
     href: "/navigation",
-    heading: "Documents",
+    heading: "Analisis dan Desain Perangkat Lunak",
   },
   {
     title: "Structure",
@@ -41,7 +41,7 @@ export const Documents: Paths[] = [
             href: "/even-deeper",
           },
         ]
-      },
+      }, 
     ],
   },
   {
