@@ -3,78 +3,55 @@ title: Panduan
 description: Panduan Penggunaan Fitur Utama dan Alur Sistem CarMart.
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iste dolorum tempore consectetur explicabo tempora provident quia maxime, molestiae, facilis aperiam et, error illum vel ullam? Quis architecto dolore ullam
+## Business Requirment
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+**Tujuan utama** :
+- Menyediakan platform online untuk menyewa mobil dengan proses yang mudah dan cepat.
+- Memfasilitasi komunikasi antara penyewa dan penyedia layanan melalui WhatsApp untuk memudahkan transaksi.
 
-| Syntax        | Description |   Test Text |
-| :------------ | :---------: | ----------: |
-| Header        |    Title    | Here's this |
-| Paragraph     |    Text     |    And more |
-| Strikethrough |             |    ~~Text~~ |
+| Kebutuhan Bisnis                     | Penjelasan                                                                                                       |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Pendaftaran dan Manajemen Akun**   | Pengguna harus dapat mendaftar, masuk, dan mengelola akun mereka.                                                |
+| **Katalog mobil**                    | Menyediakan daftar mobil yang tersedia untuk disewa, lengkap dengan deskripsi, harga, dan gambar.             .  |
+| **Proses Penyewaan**                 |  Pengguna dapat memilih mobil, menentukan durasi sewa, dan melakukan pemesanan.                                  |
+| **Pembayaran**                       | Memfasilitasi pembayaran melalui WhatsApp, termasuk konfirmasi dan pengaturan pembayaran.                        |
 
-## Getting Started
 
-To begin using the Documentation Template, follow these simple steps:
+## Stakeholder Requirement
 
-- Start by cloning the repository to your local machine.
+**Stakeholder utama** :
+- **Penyewa (Customer)**: Pengguna yang ingin menyewa mobil.
+- **Penyedia Layanan (Admin)**: Pengelola website yang mengelola daftar mobil dan transaksi.
+- **Tim Dukungan Pelanggan**: Tim yang menangani pertanyaan dan masalah pengguna.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quae iure nulla deserunt dolore quam pariatur minus sapiente accusantium. Optio, necessitatibus sequi. Veritatis, aspernatur? Possimus quis repellat eum vitae eveniet.
+## Kebutuhan Stakeholder:
 
-## Blockquotes
+**Penyewa**:
+- Kemudahan dalam mencari dan menyewa mobil.
+- Proses pembayaran yang aman dan mudah.
+- Akses ke informasi yang jelas tentang mobil yang disewa.
 
-Blockquotes are useful for emphasizing key points or quoting external sources:
+**Penyedia Layanan**:
+Kemudahan dalam mengelola daftar mobil dan transaksi.
+Alat untuk memantau dan menganalisis penyewaan.
 
-> "Documentation is a love letter that you write to your future self." - Damian Conway
+## System Requirement
 
-Feel free to use blockquotes to highlight important information or quotes relevant to your documentation.
+| Kebutuhan Sistem                     | Penjelasan                                                                                                       |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Platform web**                     | Website yang responsif dan dapat diakses dari berbagai perangkat (desktop, tablet, smartphone).                  |
+| **Database**                         | Sistem manajemen basis data untuk menyimpan informasi pengguna, mobil, dan transaksi.                            |
+| **Hubungkan ke WhatsApp**            | Sistem harus terintegrasi dengan WhatsApp untuk memfasilitasi komunikasi dan pembayaran.                         |
+| **Keamanan**                         | Sistem harus memiliki fitur keamanan untuk melindungi data pengguna dan transaksi.                               |
+| **Backup dan pemulihan**             |  Sistem harus memiliki mekanisme untuk backup data dan pemulihan jika terjadi kegagalan.                         |
 
-## Code Examples with switch
+## Software Requirement
 
-Here a custom tab component from shadcn ui is used.
+| Kebutuhan Software                   | Penjelasan                                                                                                       |
+|--------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Bahasa Pemrograman**               | PHP atau Python untuk pengembangan backend.                                                                      |
+| **Framework**                        | Laravel (PHP) atau Django (Python) untuk pengembangan aplikasi web.                                              |
+| **Database Management System**       | MySQL atau PostgreSQL untuk penyimpanan data.                                                                    |
+| **Frontend**                         | HTML, CSS, dan JavaScript (dengan framework seperti Bootstrap atau Vue.js) untuk antarmuka pengguna.             |
+| **API WhatsApp**                     | Menggunakan API WhatsApp Business untuk mengelola komunikasi dan pembayaran.                                     |
 
-<Tabs defaultValue="js" className="pt-5 pb-1">
-  <TabsList className="">
-    <TabsTrigger value="js">layout.jsx</TabsTrigger>
-    <TabsTrigger value="ts">layout.tsx</TabsTrigger>
-  </TabsList>
-  <TabsContent value="js">
-  ```jsx {7} showLineNumbers
-import ThemeProvider from './theme-provider'
- 
-export default function RootLayout({ children }) {
-  return (
-    <html>
-      <body className="container">
-        <ThemeProvider>{children}</ThemeProvider>
-      </body>
-    </html>
-  )}
-````
-  </TabsContent>
-  <TabsContent value="ts">
-```tsx {11} showLineNumbers
-import ThemeProvider from './theme-provider'
- 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html>
-      <body className="container">
-        <ThemeProvider>{children}</ThemeProvider>
-      </body>
-    </html>
-  )
-}
-```
-  </TabsContent>
-</Tabs>
-
-## Conclusion
-
-Thank you for choosing the Documentation Template for your project. Whether you're documenting software, APIs, or processes, we're here to support you in creating clear and effective documentation. Happy documenting!
