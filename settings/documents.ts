@@ -52,10 +52,6 @@ export const Documents: Paths[] = [
         href: "/cards",
       },
       {
-        title: "Diagrams",
-        href: "/diagrams",
-      },
-      {
         title: "Filetree",
         href: "/filetree",
       },
