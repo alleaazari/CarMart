@@ -28,7 +28,7 @@ export const Documents: Paths[] = [
     href: "/structure",
     items: [
       {
-        title: "Diagram"
+        title: "Diagram",
         href: "/deeper",
         items : [
           {
