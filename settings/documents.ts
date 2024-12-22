@@ -24,11 +24,11 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Analisi",
+    title: "Analisis",
     href: "/structure",
     items: [
       {
-        title: "Deeper",
+        title: "Duagram,",
         href: "/deeper",
         items : [
           {
