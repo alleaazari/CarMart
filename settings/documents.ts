@@ -7,7 +7,7 @@ export const Documents: Paths[] = [
     heading: "Getting started",
     items: [
       {
-        title: "Keterkaitan Mata Kuliah"
+        title: "Keterkaitan Mata Kuliah",
         href: "/installation",
       },
       {
