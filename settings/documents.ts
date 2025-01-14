@@ -7,7 +7,7 @@ export const Documents: Paths[] = [
     heading: "Getting started",
     items: [
       {
-        title: "Installation",
+        title: "Fitur Utama",
         href: "/installation",
       },
       {
