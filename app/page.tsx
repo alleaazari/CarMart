@@ -10,7 +10,7 @@ export default function Home() {
      CarMart
       </h1>
       <p className="max-w-[600px] text-foreground mb-8 sm:text-base">
-      CarMart adalah aplikasi penyewaan mobil yang dirancang untuk memberikan kemudahan dan kenyamanan bagi pengguna dalam mencari dan menyewa kendaraan.
+      CarMart website rental mobil yang dirancang untuk memberikan kemudahan dan kenyamanan bagi pengguna dalam mencari dan rebntal mobil sport.
       </p>
       <div className="flex items-center gap-5">
         <Link
